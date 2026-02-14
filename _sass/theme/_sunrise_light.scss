@@ -2,12 +2,13 @@
    SUNRISE THEME - LIGHT VERSION
    ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #fc3a52;
+$primary-color              : #c8553d;
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
 $light-primary-color        : mix(#fff, $primary-color, 50%);
 $lighter-primary-color      : mix(#fff, $primary-color, 90%);
-$background                 : #e8d5b7;
+
+$background                 : #eae3d7;
 $background-light           : mix(#fff, $background, 20%);
 $background-lighter        : #ffffff;
 $text                      : #000000;
@@ -31,7 +32,7 @@ $border-radius              : 4px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $global-transition          : all 0.2s ease-in-out;
 $masthead-height            : 70px;
-$navicon-width              : 28px;
+$navicon-width              : 8px;
 $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
@@ -41,7 +42,7 @@ $sidebar-screen-min-width   : 1024px;
     --global-base-color                 : #{$primary-color};
     --global-bg-color                   : #{$background};
     --global-footer-bg-color            : #{$footer};
-    --global-border-color               : #{$border};
+    --global-border-color               : #{$primary-color};
     --global-dark-border-color          : #{$border-dark};
     --global-code-background-color      : #{$background-light};
     --global-code-text-color            : #{$text-muted};
@@ -50,7 +51,7 @@ $sidebar-screen-min-width   : 1024px;
     --global-link-color-hover           : #{$link-light};
     --global-link-color-visited         : #{$link-dark};
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$text-muted};
+    --global-masthead-link-color-hover  : #{$primary-color};
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$text-muted};
     --global-thead-color                : #{$background-light};
