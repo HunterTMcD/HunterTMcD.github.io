@@ -8,11 +8,16 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Odyssey Plan"
-    url: /odyssey_plan/
+  - title: "Odyssey"
+    url:  /#/
+    children: 
+      - title: "10 Year Plan"
+        url: /odyssey_plan/
+      - title: "Thank You Letter"
+        url: /thank_you_letter/
 
   - title: "CV"
-    url: /cv/
+    url: /cv_pdf/
     
   # - title: "CV"
   #   url: /cv-json/

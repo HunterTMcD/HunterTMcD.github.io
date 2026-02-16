@@ -7,6 +7,7 @@ redirect_from:
   - /markdown.html
 ---
 
+This page is part of the original template. I am keeping it just for reference for myself. 
 
 ## Locations of key files/directories
 
