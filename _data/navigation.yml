@@ -13,8 +13,9 @@ main:
     children: 
       - title: "10 Year Plan"
         url: /odyssey_plan/
-      - title: "Thank You Letter"
-        url: /thank_you_letter/
+
+      - title: "Questions and Letter"
+        url: /3_questions/
 
   - title: "CV"
     url: /cv_pdf/

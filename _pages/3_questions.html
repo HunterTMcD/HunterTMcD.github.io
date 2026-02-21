@@ -1,0 +1,433 @@
+---
+permalink: /3_questions/
+author_profile: false   # optional, if you want your profile sidebar
+---
+
+
+<section id="reflection-section">
+
+ 
+
+  <style>
+
+    #reflection-section {
+
+      margin: 100px auto;
+
+      max-width: 900px;
+
+      font-family: 'Segoe UI', sans-serif;
+
+      padding: 40px;
+
+    }
+
+ 
+
+    #reflection-section h2 {
+
+      font-size: 34px;
+
+      text-align: center;
+
+      margin-bottom: 40px;
+
+    }
+
+ 
+
+    #reflection-section h3 {
+
+      font-size: 26px;
+
+      margin-top: 70px;
+
+      margin-bottom: 25px;
+
+    }
+
+ 
+
+    .question-block {
+
+      margin-bottom: 45px;
+
+      padding: 30px;
+
+      border-radius: 18px;
+
+      background: linear-gradient(135deg, #f8f9ff, #eef1ff);
+
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+
+      transition: transform 0.2s ease;
+
+    }
+
+ 
+
+    .question-block:hover {
+
+      transform: translateY(-4px);
+
+    }
+
+ 
+
+    .question-input {
+
+      width: 100%;
+
+      padding: 14px;
+
+      border-radius: 10px;
+
+      border: 2px solid #ccc;
+
+      font-size: 18px;
+
+      margin-bottom: 15px;
+
+    }
+
+ 
+
+    .brainstorm-area {
+
+      width: 100%;
+
+      min-height: 150px;
+
+      padding: 14px;
+
+      border-radius: 10px;
+
+      border: 2px solid #ccc;
+
+      resize: vertical;
+
+      font-size: 16px;
+
+    }
+
+ 
+
+    .question-input:focus,
+
+    .brainstorm-area:focus {
+
+      border-color: #6a5acd;
+
+      outline: none;
+
+      box-shadow: 0 0 8px rgba(106, 90, 205, 0.4);
+
+    }
+
+ 
+
+    .helper-text {
+
+      font-size: 14px;
+
+      color: #555;
+
+      margin-bottom: 8px;
+
+      font-style: italic;
+
+    }
+
+ 
+
+    .save-indicator {
+
+      font-size: 13px;
+
+      color: green;
+
+      margin-top: 6px;
+
+      opacity: 0;
+
+      transition: opacity 0.3s ease;
+
+    }
+
+ 
+
+    /* Ruled Paper */
+
+    .ruled-paper-container {
+
+      background: #fff;
+
+      padding: 40px 30px;
+
+      border-radius: 16px;
+
+      box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+
+      position: relative;
+
+    }
+
+ 
+
+    .ruled-paper {
+
+      width: 100%;
+
+      min-height: 500px;
+
+      font-size: 18px;
+
+      line-height: 28px;
+
+      border: none;
+
+      resize: vertical;
+
+      background-image: linear-gradient(to bottom, transparent 27px, #dcdcdc 28px);
+
+      background-size: 100% 28px;
+
+      padding-left: 50px;
+
+      outline: none;
+
+    }
+
+ 
+
+    .ruled-paper-container::before {
+
+      content: "";
+
+      position: absolute;
+
+      top: 40px;
+
+      bottom: 40px;
+
+      left: 40px;
+
+      width: 2px;
+
+      background: rgba(255, 0, 0, 0.4);
+
+    }
+
+ 
+
+    .ruled-paper:focus {
+
+      background-color: #fcfcff;
+
+    }
+
+ 
+
+    @media (max-width: 600px) {
+
+      #reflection-section {
+
+        padding: 20px;
+
+      }
+
+    }
+
+  </style>
+
+ 
+
+  <h2>Questions This Plan Addresses</h2>
+
+ 
+
+  <!-- Question 1 -->
+
+  <div class="question-block">
+
+    <input id="question1" class="question-input" type="text"
+
+      placeholder="Write your own Question #1" />
+
+ 
+
+    <div class="helper-text">
+
+      Brainstorm how you might answer this question over the next 10 years:
+
+    </div>
+
+ 
+
+    <textarea id="brainstorm1" class="brainstorm-area"
+
+      placeholder="Think about habits, risks, milestones, experiments, and mindset shifts..."></textarea>
+
+ 
+
+    <div id="save1" class="save-indicator">Saved ✓</div>
+
+  </div>
+
+ 
+
+  <!-- Question 2 -->
+
+  <div class="question-block">
+
+    <input id="question2" class="question-input" type="text"
+
+      placeholder="Write your own Question #2" />
+
+ 
+
+    <div class="helper-text">
+
+      Brainstorm how you might answer this question over the next 10 years:
+
+    </div>
+
+ 
+
+    <textarea id="brainstorm2" class="brainstorm-area"
+
+      placeholder="What would progress look like by Year 5? By Year 10?"></textarea>
+
+ 
+
+    <div id="save2" class="save-indicator">Saved ✓</div>
+
+  </div>
+
+ 
+
+  <!-- Question 3 -->
+
+  <div class="question-block">
+
+    <input id="question3" class="question-input" type="text"
+
+      placeholder="Write your own Question #3" />
+
+ 
+
+    <div class="helper-text">
+
+      Brainstorm how you might answer this question over the next 10 years:
+
+    </div>
+
+ 
+
+    <textarea id="brainstorm3" class="brainstorm-area"
+
+      placeholder="Map long-term growth and possible turning points..."></textarea>
+
+ 
+
+    <div id="save3" class="save-indicator">Saved ✓</div>
+
+  </div>
+
+ 
+
+  <h3>Thank You to the Life Planner</h3>
+
+ 
+
+  <div class="ruled-paper-container">
+
+    <textarea id="thankYouLetter" class="ruled-paper" maxlength="4000"
+
+      placeholder="Write a letter to the version of yourself who created this plan. Thank them. Question them. Encourage them. Hold them accountable."></textarea>
+
+ 
+
+    <div id="saveLetter" class="save-indicator">Saved ✓</div>
+
+  </div>
+
+ 
+
+  <script>
+
+    document.addEventListener("DOMContentLoaded", function() {
+
+ 
+
+      const fields = [
+
+        {id: "question1", save: "save1"},
+
+        {id: "brainstorm1", save: "save1"},
+
+        {id: "question2", save: "save2"},
+
+        {id: "brainstorm2", save: "save2"},
+
+        {id: "question3", save: "save3"},
+
+        {id: "brainstorm3", save: "save3"},
+
+        {id: "thankYouLetter", save: "saveLetter"}
+
+      ];
+
+ 
+
+      fields.forEach(function(field) {
+
+        const element = document.getElementById(field.id);
+
+        const saveIndicator = document.getElementById(field.save);
+
+        const storageKey = "odyssey_" + field.id;
+
+ 
+
+        // Load saved content
+
+        const saved = localStorage.getItem(storageKey);
+
+        if (saved !== null) {
+
+          element.value = saved;
+
+        }
+
+ 
+
+        // Save on input
+
+        element.addEventListener("input", function() {
+
+          localStorage.setItem(storageKey, element.value);
+
+ 
+
+          saveIndicator.style.opacity = "1";
+
+          setTimeout(() => {
+
+            saveIndicator.style.opacity = "0";
+
+          }, 1200);
+
+        });
+
+      });
+
+ 
+
+    });
+
+  </script>
+
+ 
+
+</section>
